@@ -7,6 +7,11 @@ https://www.youtube.com/watch?v=C6jJg9Zan7w&t=232s
 I watched this video for guidenace and help.
 """
 
+"""
+https://www.youtube.com/watch?v=C6jJg9Zan7w&t=232s
+I watched this video for guidenace and help.
+"""
+
 # For my project I plan to create a game simialr to pong but modified to be more like a soccer game.
 # The game is called "Soccer Pong".
 # Therefore, as a reulst I have imported "pygame", "turtle" and "time" to use in the interface of the game.
