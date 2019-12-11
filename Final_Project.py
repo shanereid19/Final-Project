@@ -1,16 +1,18 @@
 import pygame
 import turtle
+#import time
 
 """
 https://www.youtube.com/watch?v=C6jJg9Zan7w&t=232s
 I watched this video for guidenace and help.
 """
+
 # For my project I plan to create a game simialr to pong but modified to be more like a soccer game.
 # The game is called "Soccer Pong".
 # Therefore, as a reulst I have imported "pygame", "turtle" and "time" to use in the interface of the game.
 # I will use pygame to design the game, turtle to design the characters and time is an important variable in games and soccer alike.
 
-pygame.init()
+#pygame.init()
 # This was done to iniatlise the game.
 
 #This is done to set up the game window for the program.
@@ -93,6 +95,57 @@ wn.onkeypress(paddle_a_down, "s")
 wn.onkeypress(paddle_b_up, "Up")
 wn.onkeypress(paddle_b_down, "Down")
 
+#def start_screen():
+    #pen.write("Welcome to Soccer Pong!!! Press any key to start", align = "center", font = ("Ariel", 35, "normal"))
+
+
+
+#def main_menu():
+    #print("******Main Menu******")
+    #choice_shape = input("""
+                        #A: Square
+                        #B: Rectangle
+                        #C: Triangle
+                        #D: Circle
+                        
+
+                        #Please make a choice from A - D
+
+    #""")
+
+     #if choice_shape == "A" or choice == "a":
+        #paddle_a = paddle_a_square
+    #elif choice_shape == "B" or choice == "b":
+        #paddle_a = paddle_a_rectangle
+    #elif choice_shape == "C" or choice == "c":
+        #paddle_a = paddle_a_triangle
+    #elif choice_shape == "D" or choice == "d":
+        #paddle_a = paddle_a_circle
+    #else:
+        #print("You must enter a valid option")
+        #menu()
+
+
+    #choice_color = input("""
+                         #E: Black
+                         #F: White
+                         #G: Red
+                         #H: Blue
+    # """)
+
+    #if choice_color == "E" or choice == "e":
+        #paddle_a.shape("black")
+    #elif choice_shape == "B" or choice == "b":
+        #paddle_a.shape("white")
+    #elif choice_shape == "C" or choice == "c":
+        #paddle_a.shape("red")
+    #elif choice_shape == "D" or choice == "d":
+        #paddle_a.shape("blue")
+    #else:
+        #print("You must enter a valid option")
+        #menu()
+
+
 #def main():
     # This is the main game loop of the program.
 
@@ -137,3 +190,5 @@ while True:
     if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < paddle_a.ycor() + 40 and ball.ycor() > paddle_a.ycor() -40):
         ball.setx(-340)
         ball.dx *= -1
+
+#main_menu()
